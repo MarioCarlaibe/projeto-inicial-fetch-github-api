@@ -43,7 +43,7 @@ Nesse desafio vamos simular novas solicitações feitas pelo seu gerente de proj
 
 ### O que aprendi
 
-Esse foi meu primeiro Projeto usando Javascript junto com uma API. Apredi que o melhor método para aprender é a prática. Nesse projeto entendi melhor a usar o console.log, verificar erros e como resolvê-los, como buscar informações na API, quais são a tags para setar as informações na API, mas acima de tudo, aprendi a dar valor em mim mesmo, que é possivel atingir a excelência na programação. O processo pode ser lento, mas a conquista é gloriosa.
+Esse foi meu primeiro Projeto usando Javascript junto com uma API. Aprendi que o melhor método para aprender é a prática. Nesse projeto entendi melhor a usar o console.log, verificar erros e como resolvê-los, como buscar informações na API, quais são a tags para setar as informações na API, mas acima de tudo, aprendi a dar valor em mim mesmo, que é possivel atingir a excelência na programação. O processo pode ser lento, mas a conquista é gloriosa.
 
 ## Agradecimentos
 
