@@ -11,11 +11,11 @@ const screen = {
                                       <div class="followers">
                                         <div class="follower">
                                             <p>👥 Seguidores</p>
-                                            <span>${user.followers}</span>
+                                            <span>${user.followers ?? 'Nenhum seguidor 😥'}</span>
                                         </div>
                                         <div class="following">
                                             <p>👥 Seguindo</p>
-                                            <span>${user.following}</span>
+                                            <span>${user.following ?? 'Seguindo ninguém 😥'}</span>
                                         </div>
                                       </div>
                                       <hr>`
@@ -24,10 +24,10 @@ const screen = {
         user.repositories.forEach(repo => repositoriesItens += `<div>
                                                                     <li><a href="${repo.html_url}" target="_blank">${repo.name}
                                                                     <div class="counters">
-                                                                        <div>🍴 ${repo.forks_count}</div>
-                                                                        <div>⭐ ${repo.stargazers_count}</div>
-                                                                        <div>👀 ${repo.watchers_count}</div>
-                                                                        <div>🧠 ${repo.language}</div>
+                                                                        <div>🍴 ${repo.forks_count ?? 'Sem forks'}</div>
+                                                                        <div>⭐ ${repo.stargazers_count ?? 'Sem estrelas'}</div>
+                                                                        <div>👀 ${repo.watchers_count ?? 'Sem visualização'}</div>
+                                                                        <div>🧠 ${repo.language ?? 'Nenhuma linguagem'}</div>
                                                                     </div>
                                                                     </a></li>
                                                                 </div>`)
