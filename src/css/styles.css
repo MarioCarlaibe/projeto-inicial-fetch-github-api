@@ -70,7 +70,7 @@ main {
 }
 
 .container header #btn-search:hover {
-  background-color: hotpink;
+  background-color: rgb(48, 50, 155);
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -96,7 +96,7 @@ main {
 .container .profile-data .info img{
   width: 50%;
   border-radius: 50%;
-  border: 10px solid hotpink;
+  border: 10px solid rgb(48, 50, 155);
 }
 
 .container .profile-data .info h1{
@@ -134,7 +134,7 @@ main {
 }
 
 .container .profile-data .repositories ul li a:hover{
-  background-color:hotpink;
+  background-color:rgb(48, 50, 155);
   color: #fff
 }
 
@@ -230,11 +230,11 @@ main {
 }
 
 .follower span{
-  background-color: hotpink;
+  background-color: rgb(41, 44, 206);
 }
 
 .following span{
-  background-color: rgb(134, 22, 134);
+  background-color: rgb(69, 207, 231);
 }
 
 hr{
@@ -259,7 +259,7 @@ hr{
 }
 
 .counters div{
-  background-color: rgb(127, 85, 204);
+  background-color: rgb(152, 129, 235);
   margin: 2px;
   padding: 5px 10px;
   border-radius: 5px;
