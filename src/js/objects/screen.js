@@ -42,9 +42,9 @@ const screen = {
         let eventsItens = ''
         user.events.forEach(element => {
             if (element.type === "PushEvent") {
-               eventsItens += `<li><p><strong>"${element.repo.name}"</strong>   - "${element.payload.commits[0].message}"</p></li>` 
+               eventsItens += `<li><h3>"${element.repo.name}"</h3><p> -- ${element.payload.commits[0].message}</p></li>` 
             } else {
-                eventsItens += `<li><p><strong>"${element.repo.name}"</strong>   - "Sem mensagem de commit"</p></li>` 
+                eventsItens += `<li><h3>"${element.repo.name}"</h3><p> -- Criado um ${element.payload.ref_type}</p></li>` 
             }
             
         })
